@@ -23,7 +23,7 @@ const nameValidation = yup
 
 
   // Schema Definitions
-export const loginValidationSchema = yup.object().shape({
+export const loginSchema = yup.object().shape({
   email: emailValidation,
   password: passwordValidation,
 });
