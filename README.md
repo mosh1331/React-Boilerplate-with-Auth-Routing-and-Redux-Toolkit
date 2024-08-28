@@ -16,7 +16,18 @@ This is a React boilerplate project designed to kickstart your web application d
 
 The project is structured to maintain clarity and modularity:
 
-src/ ├── components/ # Reusable components ├── layouts/ # Layout components for different sections ├── pages/ # Main page components (e.g., Home, Login, Register) ├── redux/ # Redux slices and store configuration ├── routes/ # Routing logic, including private and public routes ├── service/ # Axios configurations and API service calls ├── utils/ # Utility functions used across the project ├── App.js # Main App component ├── index.js # Entry point of the application
+```plaintext
+src/
+├── components/        # Reusable components
+├── layouts/           # Layout components for different sections
+├── pages/             # Main page components (e.g., Home, Login, Register)
+├── redux/             # Redux slices and store configuration
+├── routes/            # Routing logic, including private and public routes
+├── service/           # Axios configurations and API service calls
+├── utils/             # Utility functions used across the project
+├── App.js             # Main App component
+├── index.js           # Entry point of the application
+```
 
 
 ## Installation
