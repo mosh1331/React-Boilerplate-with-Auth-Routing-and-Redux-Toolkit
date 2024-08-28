@@ -28,16 +28,19 @@ export const loginValidationSchema = yup.object().shape({
   password: passwordValidation,
 });
 
-export const strongPasswordSignupSchema = yup.object().shape({
+const strongPasswordSignupSchema = yup.object().shape({
   firstName: nameValidation.label('First Name'),
   surname: nameValidation.label('Surname'),
   email: emailValidation,
   password: strongPasswordValidation,
 });
 
-export const basicSignupSchema = yup.object().shape({
+const basicSignupSchema = yup.object().shape({
   firstName: nameValidation.label('First Name'),
   surname: nameValidation.label('Surname'),
   email: emailValidation,
   password: passwordValidation,
 });
+
+
+export const signupSchema = strongPasswordSignupSchema;
