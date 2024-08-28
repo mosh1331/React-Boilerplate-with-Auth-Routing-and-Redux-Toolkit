@@ -19,7 +19,7 @@ The project is structured to maintain clarity and modularity:
 ```plaintext
 src/
 ├── components/        # Reusable components
-├── layouts/           # Layout components for different sections
+├── layouts/           # Layout components for different sections ,Public and Authenticated layouts
 ├── pages/             # Main page components (e.g., Home, Login, Register)
 ├── redux/             # Redux slices and store configuration
 ├── routes/            # Routing logic, including private and public routes
